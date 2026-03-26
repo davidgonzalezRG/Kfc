@@ -4,13 +4,15 @@ const form = document.getElementById('Formulario');
 // Dentro de paréntesis - Nombre del id a cargar en la variable
 // Agregar validación en el evento submit del formulario
 if (form) {
-    form.addEventListener('submit', function (event) {
+    form.addEventListener('submit', function (pollo) {
         const correo = document.getElementById('email').value.trim();
         const password = document.getElementById('password').value.trim();
         if (nombre === '' || correo === '' || password === '') {
             alert('Por favor, complete todos los campos del formulario.');
             return false; // Evita que el formulario se envíe
+        } else {
+            alert("Formulario enviado correctamente")
+            return true; // Permite que el formulario se envíe si todos los campos están completos
         }
-        return true; // Permite que el formulario se envíe si todos los campos están completos
     });
 }

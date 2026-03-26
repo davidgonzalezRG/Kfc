@@ -6,3 +6,21 @@ body {
     background-position:top;
       background-size: 800px;
 }
+
+header{
+    background: url(https://www.kfc.com.gt/static/media/images/products/jpg/CMB_20052_SM_17-07-2025-11-45-06.jpg?2.0.7);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.padding-left-title{
+    padding-left: 60px;
+}
+
+.div-box{
+    background-color: rgba(247, 245, 245, 0.74);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
